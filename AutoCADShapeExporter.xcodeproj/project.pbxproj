@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56B9133B1C4FC76D007E0A0B /* AutoCADShapeExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B9133A1C4FC76D007E0A0B /* AutoCADShapeExporter.m */; };
+		56B9133F1C4FC76D007E0A0B /* AutoCADShapeExporterDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56B9133D1C4FC76D007E0A0B /* AutoCADShapeExporterDialog.xib */; };
+		56B913411C4FC76D007E0A0B /* ExportIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 56B913401C4FC76D007E0A0B /* ExportIcon.tif */; };
+		56B913431C4FC76D007E0A0B /* ExportIcon@2x.tif in Resources */ = {isa = PBXBuildFile; fileRef = 56B913421C4FC76D007E0A0B /* ExportIcon@2x.tif */; };
+		56F2F58F26054B8300AE26EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2F58E26054B8300AE26EF /* Cocoa.framework */; };
+		56F2F59326054BB400AE26EF /* GlyphsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2F59226054BB400AE26EF /* GlyphsCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56615A301C50374F003D649E /* common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = common.xcconfig; path = /Users/georg/Programmierung/Glyphs2/common.xcconfig; sourceTree = "<absolute>"; };
+		56615A321C50374F003D649E /* debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = debug.xcconfig; path = /Users/georg/Programmierung/Glyphs2/debug.xcconfig; sourceTree = "<absolute>"; };
+		56B9132F1C4FC76D007E0A0B /* AutoCADShapeExporter.glyphsFileFormat */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCADShapeExporter.glyphsFileFormat; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B913351C4FC76D007E0A0B /* AutoCADShapeExporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoCADShapeExporter-Prefix.pch"; sourceTree = "<group>"; };
+		56B913391C4FC76D007E0A0B /* AutoCADShapeExporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoCADShapeExporter.h; sourceTree = "<group>"; };
+		56B9133A1C4FC76D007E0A0B /* AutoCADShapeExporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCADShapeExporter.m; sourceTree = "<group>"; };
+		56B9133E1C4FC76D007E0A0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AutoCADShapeExporterDialog.xib; sourceTree = "<group>"; };
+		56B913401C4FC76D007E0A0B /* ExportIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ExportIcon.tif; sourceTree = "<group>"; };
+		56B913421C4FC76D007E0A0B /* ExportIcon@2x.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "ExportIcon@2x.tif"; sourceTree = "<group>"; };
+		56B913461C4FC76D007E0A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F2F58E26054B8300AE26EF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		56F2F59226054BB400AE26EF /* GlyphsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GlyphsCore.framework; path = /Applications/Glyphs.app/Contents/Frameworks/GlyphsCore.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56B9132C1C4FC76D007E0A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F2F59326054BB400AE26EF /* GlyphsCore.framework in Frameworks */,
+				56F2F58F26054B8300AE26EF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56B913261C4FC76D007E0A0B = {
+			isa = PBXGroup;
+			children = (
+				56B913341C4FC76D007E0A0B /* AutoCADShapeExporter */,
+				56B913311C4FC76D007E0A0B /* Frameworks */,
+				56B913301C4FC76D007E0A0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56B913301C4FC76D007E0A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56B9132F1C4FC76D007E0A0B /* AutoCADShapeExporter.glyphsFileFormat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B913311C4FC76D007E0A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56F2F59226054BB400AE26EF /* GlyphsCore.framework */,
+				56F2F58E26054B8300AE26EF /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56B913341C4FC76D007E0A0B /* AutoCADShapeExporter */ = {
+			isa = PBXGroup;
+			children = (
+				56B913351C4FC76D007E0A0B /* AutoCADShapeExporter-Prefix.pch */,
+				56B913391C4FC76D007E0A0B /* AutoCADShapeExporter.h */,
+				56B9133A1C4FC76D007E0A0B /* AutoCADShapeExporter.m */,
+				56B913461C4FC76D007E0A0B /* Info.plist */,
+				56B9133C1C4FC76D007E0A0B /* Supporting Files */,
+			);
+			path = AutoCADShapeExporter;
+			sourceTree = "<group>";
+		};
+		56B9133C1C4FC76D007E0A0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56615A301C50374F003D649E /* common.xcconfig */,
+				56615A321C50374F003D649E /* debug.xcconfig */,
+				56B9133D1C4FC76D007E0A0B /* AutoCADShapeExporterDialog.xib */,
+				56B913401C4FC76D007E0A0B /* ExportIcon.tif */,
+				56B913421C4FC76D007E0A0B /* ExportIcon@2x.tif */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B9132E1C4FC76D007E0A0B /* AutoCADShapeExporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B913491C4FC76D007E0A0B /* Build configuration list for PBXNativeTarget "AutoCADShapeExporter" */;
+			buildPhases = (
+				56B9132B1C4FC76D007E0A0B /* Sources */,
+				56B9132C1C4FC76D007E0A0B /* Frameworks */,
+				56B9132D1C4FC76D007E0A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCADShapeExporter;
+			productName = AutoCADShapeExporter;
+			productReference = 56B9132F1C4FC76D007E0A0B /* AutoCADShapeExporter.glyphsFileFormat */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56B913271C4FC76D007E0A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Georg Seifert";
+				TargetAttributes = {
+					56B9132E1C4FC76D007E0A0B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 56B9132A1C4FC76D007E0A0B /* Build configuration list for PBXProject "AutoCADShapeExporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 56B913261C4FC76D007E0A0B;
+			productRefGroup = 56B913301C4FC76D007E0A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B9132E1C4FC76D007E0A0B /* AutoCADShapeExporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56B9132D1C4FC76D007E0A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B913411C4FC76D007E0A0B /* ExportIcon.tif in Resources */,
+				56B9133F1C4FC76D007E0A0B /* AutoCADShapeExporterDialog.xib in Resources */,
+				56B913431C4FC76D007E0A0B /* ExportIcon@2x.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56B9132B1C4FC76D007E0A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B9133B1C4FC76D007E0A0B /* AutoCADShapeExporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56B9133D1C4FC76D007E0A0B /* AutoCADShapeExporterDialog.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56B9133E1C4FC76D007E0A0B /* en */,
+			);
+			name = AutoCADShapeExporterDialog.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56B913471C4FC76D007E0A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56615A321C50374F003D649E /* debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		56B913481C4FC76D007E0A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56615A301C50374F003D649E /* common.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		56B9134A1C4FC76D007E0A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56615A321C50374F003D649E /* debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
+				GCC_PREFIX_HEADER = "AutoCADShapeExporter/AutoCADShapeExporter-Prefix.pch";
+				INFOPLIST_FILE = AutoCADShapeExporter/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeorgSeifert.AutoCADShapeExporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = glyphsFileFormat;
+			};
+			name = Debug;
+		};
+		56B9134B1C4FC76D007E0A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56615A301C50374F003D649E /* common.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
+				GCC_PREFIX_HEADER = "AutoCADShapeExporter/AutoCADShapeExporter-Prefix.pch";
+				INFOPLIST_FILE = AutoCADShapeExporter/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeorgSeifert.AutoCADShapeExporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = glyphsFileFormat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56B9132A1C4FC76D007E0A0B /* Build configuration list for PBXProject "AutoCADShapeExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B913471C4FC76D007E0A0B /* Debug */,
+				56B913481C4FC76D007E0A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B913491C4FC76D007E0A0B /* Build configuration list for PBXNativeTarget "AutoCADShapeExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B9134A1C4FC76D007E0A0B /* Debug */,
+				56B9134B1C4FC76D007E0A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56B913271C4FC76D007E0A0B /* Project object */;
+}
