@@ -2,8 +2,8 @@
 
 This is a plugin to export AutoCAD shape fonts.
 
-- It is recommended to use a UPM if 125 or lower.
-- Curves are converted into arc segments so it it might be better to keep curves simple.
+- It is recommended to use a UPM of 125 or lower.
+- Curves are converted to arc segments so it might be better to keep curves simple.
 - Kerning is not supported.
 
 The exported fonts are .shp files that need to be [converted to .shx files](https://knowledge.autodesk.com/support/autocad/troubleshooting/caas/sfdcarticles/sfdcarticles/Compile-shape-file-into-SHX-text-font-file.html) to be able to use them in AutoCAD.
