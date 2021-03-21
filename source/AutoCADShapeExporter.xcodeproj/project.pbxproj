@@ -261,7 +261,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56615A321C50374F003D649E /* debug.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(USER_LIBRARY_DIR)/Application Support/Glyphs 3/Plugins";
 				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
@@ -280,7 +280,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56615A301C50374F003D649E /* common.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
 				GCC_PREFIX_HEADER = "AutoCADShapeExporter/AutoCADShapeExporter-Prefix.pch";
 				INFOPLIST_FILE = AutoCADShapeExporter/Info.plist;
